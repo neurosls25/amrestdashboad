@@ -5,18 +5,28 @@ import Logo from "../Images/LogoAmrest.png";
 
 
 const Imagen = Styled.img`
-width: 100%;
+
 `;
 
 const Login = () => {
   return (
-    <Box>
-      <Container>
-        <Imagen src={Logo} />
-        <p>Login</p>
+    <Box sx={{
+      height: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+    }}>
+      <Container sx={{
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}>
+        <Imagen className="logo" src={Logo} />
         <Box sx={{
           display: "flex",
           flexDirection: "column",
+          width: "100%",
         }}>
           <TextField
             required
@@ -32,9 +42,9 @@ const Login = () => {
             autoComplete="current-password"
             variant="filled"
           />
-          <Button variant="contained">submit</Button>
+          <Button className="button" variant="contained">submit</Button>
         </Box>
-        <p>Dont have an account? Create one<a href="/"> here</a></p>
+        <p className="text">Dont have an account? Create one<a href="/"> here</a></p>
       </Container>
     </Box>
   );
