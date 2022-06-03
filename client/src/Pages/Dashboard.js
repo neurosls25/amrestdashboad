@@ -5,20 +5,41 @@ import Button from "@mui/material/Button";
 
 const Dashboard = () => {
   return (
-    <Box>
+    <Box 
+      sx={{
+        display: "flex"
+      }}
+    >
       <Container>
         <Stack
+          width="150px"
           height="100vh"
-          direction="column-reverse"
           justifyContent="center"
-          alignItems="flex-start"
           spacing={0.5}
+          backgroundColor="var(--background-color-1)"
         >
-          <Button variant="contained">Contained</Button>
-          <Button variant="contained">Contained</Button>
-          <Button variant="contained">Contained</Button>
-          <Button variant="contained">Contained</Button>
+          <Button sx={{
+            width: "100%",
+          }} variant="contained">Laptops</Button>
+          <Button sx={{
+            width: "100%",
+          }} variant="contained">Phones</Button>
+          <Button sx={{
+            width: "100%",
+          }} variant="contained">Tablets</Button>
+          <Button sx={{
+            width: "100%",
+          }} variant="contained">Servers</Button>
         </Stack>
+      </Container>
+      <Container>
+        <Container>
+          <div>
+            <h2>ES-4L58TR</h2>
+            <img src="/" alt="" />
+            <p>Details</p>
+          </div>
+        </Container>
       </Container>
     </Box>
   );
