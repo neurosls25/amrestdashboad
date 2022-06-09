@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Container } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import Img from "../Images/portatil.jpg"
 
 const Dashboard = () => {
   return (
@@ -34,11 +35,14 @@ const Dashboard = () => {
       </Container>
       <Container>
         <Container>
-          <div>
+          <Box sx={{
+            width: "200px",
+
+          }}>
             <h2>ES-4L58TR</h2>
-            <img src="/" alt="" />
+            <img src={Img} alt="portatil imagen" />
             <p>Details</p>
-          </div>
+          </Box>
         </Container>
       </Container>
     </Box>
