@@ -2,8 +2,10 @@
   --background-color-1: rgb(216, 123, 35);
   --background-color-2: rgb(207, 29, 154);
 
-  --color-1: #fff;
-  --color-2: #fff;
+  --color-1: rgb(255, 255, 255);
+  --color-2: rgb(0, 0, 0);
+
+  --fontSize: 11px;
 
   --shadow: 0px 0px 5px;
 }
