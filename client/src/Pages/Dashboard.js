@@ -22,7 +22,7 @@ const Dashboard = () => {
             display: "flex",
           }}
         >
-          
+          <ComputerCard />
         </Container>
       </Container>
     </Box>

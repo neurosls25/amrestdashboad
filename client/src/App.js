@@ -15,6 +15,10 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/laptops" element={<Dashboard />} />
+          <Route exact path="/phones" element={<Dashboard />} />
+          <Route exact path="/tablets" element={<Dashboard />} />
+          <Route exact path="/servers" element={<Dashboard />} />
         </Routes>
       </Router>
     </Box>

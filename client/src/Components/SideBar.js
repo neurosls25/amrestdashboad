@@ -19,7 +19,7 @@ const SideBar = () => {
           }}
           variant="contained"
         >
-          Laptops
+        <a href="/dashboard">Dashboard</a>
         </Button>
         <Button
           sx={{
@@ -27,7 +27,7 @@ const SideBar = () => {
           }}
           variant="contained"
         >
-          Phones
+        <a href="/laptops">Laptops</a>
         </Button>
         <Button
           sx={{
@@ -35,7 +35,7 @@ const SideBar = () => {
           }}
           variant="contained"
         >
-          Tablets
+          <a href="/phones">phones</a>
         </Button>
         <Button
           sx={{
@@ -43,7 +43,15 @@ const SideBar = () => {
           }}
           variant="contained"
         >
-          Servers
+          <a href="/tablets">Tablets</a>
+        </Button>
+        <Button
+          sx={{
+            width: "100%",
+          }}
+          variant="contained"
+        >
+          <a href="/servers">Servers</a>
         </Button>
       </Stack>
     </Container>
