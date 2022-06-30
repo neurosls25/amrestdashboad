@@ -13,7 +13,7 @@ const ComputerCard = () => {
             flexDirection: "column",
             border: "1px solid lightgray",
             borderRadius: "5px 5px 5px",
-            textAlign: "center",
+            textAlign: "left",
           }}
         >
           <h3>ES-4L58TR</h3>
@@ -42,21 +42,6 @@ const ComputerCard = () => {
               <p>HDD:</p>
               <p>OS:</p>
               <p>Politicas:</p>
-            </Box>
-            <Box
-              sx={{
-                width: "100%",
-                paddingLeft: "1rem",
-              }}
-            >
-              <p>Dell</p>
-              <p>Latitud 5420</p>
-              <p>I5 4500k</p>
-              <p>16Gb</p>
-              <p>256Gb</p>
-              <p>No</p>
-              <p>Windows 10</p>
-              <p>Passed</p>
             </Box>
             <Box
               sx={{
