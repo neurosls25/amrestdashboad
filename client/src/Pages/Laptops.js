@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Box } from "@mui/material";
+import ComputerCard from "../Components/ComputerCard";
 
 const Laptops = () => {
   return (
-    <div>Laptops</div>
-  )
-}
+    <Box >
+      <ComputerCard />
+    </Box>
+  );
+};
 
-export default Laptops
+export default Laptops;

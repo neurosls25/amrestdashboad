@@ -12,6 +12,7 @@ const SideBar = () => {
         justifyContent="center"
         spacing={0.5}
         backgroundColor="var(--background-color-1)"
+        textDecoration= "none"
       >
         <Button
           sx={{

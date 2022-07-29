@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Container } from "@mui/material";
-import ComputerCard from "../Components/ComputerCard";
 import SideBar from "../Components/SideBar";
 
 const Dashboard = () => {
@@ -22,7 +21,6 @@ const Dashboard = () => {
             display: "flex",
           }}
         >
-          <ComputerCard />
         </Container>
       </Container>
     </Box>
